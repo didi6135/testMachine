@@ -27,8 +27,8 @@ export const checkItzik = async (req: Request, res: Response, next: NextFunction
         }
          
     })
-    .then(res => console.log(res))
-    .catch(err => console.log(err))
+    // .then(res => console.log(res))
+    // .catch(err => console.log(err))
 
     next() 
 }
