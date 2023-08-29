@@ -1,6 +1,18 @@
+// {
+//     "compilerOptions": {
+//         "target": "ES5",
+//         "esModuleInterop": true,
+        
+//     } 
+// }
 {
     "compilerOptions": {
-        "target": "ES5",
-        "esModuleInterop": true
-    } 
-}
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "es6",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist"
+    },
+    "lib": ["es2015"]
+  }
