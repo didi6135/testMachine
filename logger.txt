@@ -1,0 +1,29 @@
+
+8/29/2023, 3:27:20 PM - undefined 
+ -------------------------------------------------------------------------
+8/29/2023, 3:27:36 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
+8/29/2023, 3:30:32 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
+8/29/2023, 3:30:48 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
+8/29/2023, 3:33:21 PM - column "undefined" does not exist 
+ -------------------------------------------------------------------------
+8/29/2023, 3:36:55 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
+8/29/2023, 3:37:53 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
+8/29/2023, 3:39:34 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
+8/29/2023, 3:39:53 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
+8/29/2023, 3:40:23 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
+8/29/2023, 3:42:15 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
+8/29/2023, 3:43:24 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
+8/29/2023, 3:43:43 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
+8/29/2023, 3:44:11 PM - null value in column "firstname" of relation "users" violates not-null constraint 
+ -------------------------------------------------------------------------
