@@ -4,7 +4,7 @@ const { Pool } = pg;
 
 // Create a new PostgreSQL connection pool
 const pool = new Pool({
-    connectionString: process.env.POSTGRES_URL + "?sslmode=require",
+    connectionString: "postgres://default:BaIKyzi6f7FJ@ep-lingering-heart-88895075.us-east-1.postgres.vercel-storage.com:5432/verceldb" + "?sslmode=require",
 });
 
 // Attempt to connect to the pool
