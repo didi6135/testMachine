@@ -21,7 +21,6 @@ export const checkItzik = async (req: Request, res: Response, next: NextFunction
 
     }
 
-    console.log(req)
     await axios.post('http://localhost:3025/packet', data, {
         headers: {
             'Content-Type': 'application/json',
