@@ -13,7 +13,6 @@ export const signUp = async (user: UserModel):Promise<UserModel> => {
         `;
         const values = [user.firstname, user.lastname, user.email, user.gender, user.password, user.repassword];
         const result = await pool.query(query, values);
-        console.log(result)
         return user
 }
 

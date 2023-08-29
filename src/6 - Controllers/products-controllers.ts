@@ -1,5 +1,6 @@
 import express, { NextFunction, Response, Request } from 'express'
 import pool from '../2 - Utils/dal';
+import { checkItzik } from '../3 - Middleware/itzikMW';
 
 
 const router = express.Router();
