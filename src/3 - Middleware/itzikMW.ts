@@ -21,7 +21,7 @@ export const checkItzik = async (req: Request, res: Response, next: NextFunction
 
     }
 
-    await axios.post('http://localhost:3025/packet', data, {
+    await axios.post('https://manage-machine.vercel.app/packet', data, {
         headers: {
             'Content-Type': 'application/json',
         }
