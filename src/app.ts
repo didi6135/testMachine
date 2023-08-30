@@ -12,7 +12,7 @@ const server = express();
 server.use(express.json());
 
 
-// server.use(checkItzik)
+server.use(checkItzik)
 
 server.use("/api", productsController);
 server.use("/api", authController);
