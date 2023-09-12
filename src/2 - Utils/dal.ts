@@ -14,7 +14,6 @@ pool.connect((err, client, done) => {
   }
   console.log('Connected to PostgreSQL database');
 
-  // Don't forget to call `done` to release the client back to the pool
   done();
 });
 

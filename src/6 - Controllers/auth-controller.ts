@@ -9,6 +9,7 @@ const router = express.Router();
 // GET http://localhost:3001/api/products
 router.post("/auth/login", async (req: Request, res: Response, next: NextFunction) => {
     try {
+        console.log(req.body)
         const credentials = req.body as CredentialsModel
         const checkLogin = await login(credentials)
         res.status(201).json(checkLogin);
